@@ -512,6 +512,8 @@ fit();
 if (document.fonts) document.fonts.load(`20px ${FONT}`).then(() => {}).catch(() => {});
 requestAnimationFrame(frame);
 
+/* @test-hooks:start */
 // 테스트용: 판 상태를 밖에서 볼 수 있게
 window.__pong = { get grid() { return grid; }, get phase() { return phase; }, get state() { return state; }, get score() { return score; }, trySwap, update, draw, startGame };
+/* @test-hooks:end */
 })();
