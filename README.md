@@ -6,4 +6,4 @@
 - 4마리 → 한 줄 지우개, ㄱ자 → 💣 폭탄, 5마리 → 🌈 무지개
 - 빠르게 이어 맞추면 콤보, 게이지가 차면 FEVER (점수 2배)
 
-`index.html` 을 그대로 열면 된다. 판 규칙은 `logic.js`, 화면·입력은 `game.js`.
+`index.html` 을 그대로 열면 된다. 판 규칙은 `logic.js`(화면 없이 Node 로 시험할 수 있다: `node test/logic.test.js`), 화면·입력은 `game.js`.
